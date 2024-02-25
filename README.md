@@ -1,0 +1,1 @@
+This project is a simple clone of the Netflix website, created using HTML and CSS only. It aims to replicate the basic layout and styling of the Netflix homepage, allowing users to navigate through different sections and view movie or TV show titles.
