@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'popins'Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/c38a2d52-138e-48a3-ab68-36787ece46b3/eeb03fc9-99c6-438e-824d-32917ce55783/IN-en-20240101-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    height: 80vh;
+    background-position: center center;
+   background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    position: relative;
+}
+.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.70;
+    position: absolute;
+    background-color: black;
+    top: 0;
+}
+nav{
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+}
+nav img{
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    font-family: 'martel sans', sans-serif;
+    height:calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 24px;
+    padding: 0 30px;
+}
+.hero> :first-child{
+    font-weight: 1000;
+    font-size: 48px;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-family: 400;
+    font-size: 24px;
+    text-align: center;
+    
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.separation{
+    height: 11px;
+    background-color: rgb(76, 68, 68);
+}
+.btn{
+   padding: 3px 8px;
+   font-weight: bold;
+   background-color: white; 
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 4px 26px;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.btn-red-sn{
+    background-color: red;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.main input{
+    padding: 7px 101px 8px 15px;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgba(23, 23, 23, 0.5);
+    border: 1px solid rgba(238, 238, 238, 0.4);
+}
+.eng{
+    padding: 7px 10px;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgba(23, 23, 23, 0.5);
+    border: 1px solid rgba(238, 238, 238, 0.4);
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    padding: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.secimg{
+    position: relative;
+}
+.secimg img{
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+    width: 555px;
+}
+.secimg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+}
+.first > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+.first > div :nth-child(2){
+    font-size: 24px;
+    font-weight: bolder;
+}
+.first > div{
+    display: flex;
+    flex-direction: column;
+}
+.FAQ{
+    background-color: black;
+    color: white;
+}
+.FAQ h2{
+    text-align: center;
+    padding: 34px;
+    font-size: 48px;
+}
+.FAQbox{
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    background-color: rgb(26, 22, 22);
+    padding: 24px;
+    max-width: 55vw;
+    margin:34px auto;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 24px;
+    border: 10px;
+}
+.FAQbox:hover{
+    background-color: rgb(103, 97, 97);
+    color: white;
+}
+.FAQbox svg{
+    filter: invert(2);
+}
+.contact{
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: 20px;
+    padding: 35px;
+}
+.enter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    gap: 15px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.enter input{
+    padding: 7px 101px 8px 15px;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgba(23, 23, 23, 0.5);
+    border: 1px solid rgba(238, 238, 238, 0.4);
+}
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+}
+footer .que{
+    padding:34px; ;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+   
+}
+.footeritem{
+    display: flex;
+    flex-direction: column;
+}
+.footeritem a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+@media  screen and (max-width: 1300px) {
+    .first{
+        flex-wrap: wrap;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+
+
